@@ -5,14 +5,18 @@
 
 .brand {
     width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     font-family: 'Serenity';
     font-size: 2em;
-    text-align: center;
 }
 
 .brand a {
+    height: 70%;
     color: rgb(3, 166, 136);
     text-decoration: none;
+    text-align: center;
 }
 
 
@@ -39,6 +43,7 @@
 .subContainer-navbar li {
     width: 20%;
     height: 50%;
+    padding: 0.8em;
     text-align: center;
 }
 
