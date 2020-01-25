@@ -7,6 +7,10 @@ import { AppComponent } from './app.component';
 
 import { NavbarComponent } from './components/shared/navbar/navbar.component';
 import { HeaderComponent } from './components/header/header.component';
+import { AboutmeComponent } from './components/aboutme/aboutme.component';
+import { WordtoolsComponent } from './components/wordtools/wordtools.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,15 @@ import { HeaderComponent } from './components/header/header.component';
    
     NavbarComponent,
    
-    HeaderComponent
+    HeaderComponent,
+   
+    AboutmeComponent,
+   
+    WordtoolsComponent,
+   
+    ProjectsComponent,
+   
+    ContactComponent
   ],
   imports: [
     BrowserModule,
