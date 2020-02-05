@@ -1,3 +1,15 @@
+/*Fuente principal merienda one*/
+
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Merienda|Merienda+One&display=swap');
+
+/*Fuente principal merienda */
+
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+/*Fuente de segunda seccion*/
+
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Merienda&display=swap');
+
 /******** ******* ******* HEADER ********* ********** *******/
 
 .header {
@@ -5,11 +17,11 @@
     height: 100vh;
     background-image: url('../../../assets/img/fondomostaza.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-position: 0 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    align-content: flex-start;
 }
 
 
@@ -23,14 +35,13 @@
 } */
 
 .subHeader {
-    width: 80%;
+    width: 100%;
     height: 9%;
     margin-top: 2em;
     display: flex;
     flex-direction: row;
     color: #ffffff;
     font-weight: bold;
-    background: transparent;
 }
 
 
@@ -38,7 +49,81 @@
 background: linear-gradient(180deg, rgba(33, 31, 31, 1) 0%, rgba(245, 241, 241, 0.7931547619047619) 100%); */
 
 .nav {
-    width: 98%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+
+/*Contenedor del la presentacion*/
+
+.container-presentation {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    margin-left: 10em;
+}
+
+
+/*Primer Contenedor*/
+
+.greet {
+    width: 62%;
+    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5em;
+    font-family: 'Merienda', cursive;
+    font-size: 0.8;
+}
+
+
+/*Segundo Contenedor*/
+
+.profession {
+    width: 62%;
+    color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.3);
+    margin-top: 1em;
+    padding: 0.3em;
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+
+/* Tercer contenedor  */
+
+.cv .btncv {
+    margin-top: 2.5em;
+    padding: 12px 80px;
+    background-color: rgb(236, 181, 41);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-family: 'Merienda One', cursive;
+    font-size: 1.1em;
+}
+
+.cotainer-icon-contact {
+    width: 80%;
+    height: 15%;
+    margin-left: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.icon-contact {
+    width: 17%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cotainer-icon-contact img {
+    width: 3em;
+    height: 3em;
 }
