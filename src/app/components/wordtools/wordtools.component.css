@@ -1,0 +1,11 @@
+.container-tools {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../assets/img/fondotecnologia.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
