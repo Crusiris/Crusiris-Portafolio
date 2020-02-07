@@ -1,11 +1,14 @@
-<div class="brand">
-    <img src="../../../../assets/img/C.png" alt="">
+<div class="container-brand-nav">
+    <div class="brand">
+        <img src="../../../../assets/img/C.png" alt="">
+    </div>
+    <nav class="container-nav">
+        <ul class="subContainer-navbar">
+            <li [routerLink]="['/home']">Home</li>
+            <li [routerLink]="['/about']">About me</li>
+            <li [routerLink]="['/tools']">Tools</li>
+            <li [routerLink]="['/projects']">Projects</li>
+            <li [routerLink]="['/contact']">Contact</li>
+        </ul>
+    </nav>
 </div>
-<nav class="container-nav">
-    <ul class="subContainer-navbar">
-        <li [routerLink]="['/about']">About me</li>
-        <li [routerLink]="['/tools']">Word tools</li>
-        <li [routerLink]="['/projects']">Projects</li>
-        <li [routerLink]="['/contact']">Contact</li>
-    </ul>
-</nav>

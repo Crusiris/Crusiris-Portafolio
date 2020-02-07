@@ -24,9 +24,15 @@
 
 /******* *********** **** CONTENEDOR DEL NAV BAR *** ****************/
 
+.container-brand-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .container-nav {
     z-index: 1;
-    width: 40%;
+    width: 60%;
     display: flex;
     flex-direction: row;
 }
@@ -51,7 +57,7 @@
 }
 
 .subContainer-navbar li:hover {
-    background: rgb(237, 177, 57);
+    background: rgba(236, 181, 41, 1);
     border-radius: 0.2em;
     -webkit-border-radius: 0.2em;
     -moz-border-radius: 0.2em;
