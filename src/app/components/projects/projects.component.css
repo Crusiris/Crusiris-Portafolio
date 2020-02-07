@@ -1,0 +1,109 @@
+/*Fuente principal merienda */
+
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+
+/* *********** **********Contenedor general *********** ***********/
+
+.container-project {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+
+/** *** ***** Titulo ***** *** **/
+
+.title {
+    width: 30%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Merienda', cursive;
+    margin-bottom: 1em;
+}
+
+
+/** *** ***** Sub contenedor ***** *** **/
+
+.subcontainer-project {
+    width: 85%;
+    height: 80%;
+    border: 10px solid;
+    text-align: center;
+    font-size: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 250px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 10px;
+    /* 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center; */
+}
+
+
+/** *** ***** Primer proyecto ***** *** **/
+
+.project-one {
+    /* width: 30%;
+    height: 40%;
+     */
+    background: rgb(249, 168, 38);
+}
+
+
+/** *** ***** Segundo proyecto ***** *** **/
+
+.project-two {
+    /* width: 45%;
+    height: 40%;
+     */
+    background: rgb(252, 202, 63);
+    grid-column: 2/4;
+}
+
+
+/** *** ***** Tercer proyecto ***** *** **/
+
+.project-three {
+    /* width: 20%;
+    height: 40%;
+     */
+    background: rgb(249, 168, 38);
+}
+
+
+/** *** ***** Cuarto proyecto ***** *** **/
+
+.project-four {
+    /* width: 45%;
+    height: 40%;
+     */
+    background: rgb(249, 168, 38);
+}
+
+
+/** *** ***** QUinto proyecto ***** *** **/
+
+.project-five {
+    /* width: 30%;
+    height: 40%;
+    */
+    background: rgb(252, 202, 63);
+}
+
+
+/** *** ***** Sexto proyecto ***** *** **/
+
+.project-six {
+    /* width: 20%;
+    height: 40%;
+     */
+    background: rgb(87, 85, 81);
+}
