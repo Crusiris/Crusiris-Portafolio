@@ -7,8 +7,10 @@
 .container-project {
     width: 100vw;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 4em 1fr;
+    justify-items: center;
     align-items: center;
     margin-top: 1em;
 }
@@ -17,93 +19,72 @@
 /** *** ***** Titulo ***** *** **/
 
 .title {
-    width: 30%;
-    height: 5%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     font-family: 'Merienda', cursive;
     margin-bottom: 1em;
+    justify-self: center;
+    align-self: center;
 }
 
 
 /** *** ***** Sub contenedor ***** *** **/
 
 .subcontainer-project {
-    width: 85%;
-    height: 80%;
-    border: 10px solid;
-    text-align: center;
+    width: 75%;
+    height: 90%;
     font-size: 50px;
+    grid-column: 1/2;
     display: grid;
-    grid-template-columns: repeat(3, 1fr) 250px;
-    grid-template-rows: repeat(2, 1fr);
-    grid-gap: 10px;
-    /* 
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    align-items: center; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    justify-items: stretch;
+    align-items: stretch;
 }
 
 
 /** *** ***** Primer proyecto ***** *** **/
 
 .project-one {
-    /* width: 30%;
-    height: 40%;
-     */
-    background: rgb(249, 168, 38);
+    grid-column: 1/2;
+    grid-row: 1/3;
 }
 
 
 /** *** ***** Segundo proyecto ***** *** **/
 
 .project-two {
-    /* width: 45%;
-    height: 40%;
-     */
-    background: rgb(252, 202, 63);
     grid-column: 2/4;
+    grid-row: 1/3;
 }
 
 
 /** *** ***** Tercer proyecto ***** *** **/
 
 .project-three {
-    /* width: 20%;
-    height: 40%;
-     */
-    background: rgb(249, 168, 38);
+    grid-column: 4/5;
+    grid-row: 1/4;
 }
 
 
 /** *** ***** Cuarto proyecto ***** *** **/
 
 .project-four {
-    /* width: 45%;
-    height: 40%;
-     */
-    background: rgb(249, 168, 38);
+    grid-column: 1/3;
+    grid-row: 3/5;
 }
 
 
 /** *** ***** QUinto proyecto ***** *** **/
 
 .project-five {
-    /* width: 30%;
-    height: 40%;
-    */
-    background: rgb(252, 202, 63);
+    grid-column: 3/4;
+    grid-row: 3/5;
 }
 
 
 /** *** ***** Sexto proyecto ***** *** **/
 
 .project-six {
-    /* width: 20%;
-    height: 40%;
-     */
-    background: rgb(87, 85, 81);
+    grid-column: 4/5;
+    grid-row: 4/5;
 }
