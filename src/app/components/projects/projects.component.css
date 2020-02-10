@@ -95,13 +95,16 @@
 
 /*PHONE*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .container-project {
         height: auto;
         display: flex;
         flex-direction: column;
         margin-top: 0;
-        background: rgba(236, 181, 41, 0.8);
+        /* background: rgba(236, 181, 41, 0.8); */
+    }
+    .containertech img {
+        margin-right: 0.5em;
     }
     .subcontainer-project {
         display: flex;
@@ -113,5 +116,11 @@
     }
     .title {
         margin-top: 1em;
+    }
+    .container-tech-one,
+    .container-tech-two,
+    .container-tech-three,
+    .container-tech-four {
+        width: 100%;
     }
 }
