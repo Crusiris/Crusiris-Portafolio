@@ -64,3 +64,22 @@
     -ms-border-radius: 0.2em;
     -o-border-radius: 0.2em;
 }
+
+
+/*Responsive*/
+
+
+/*PHONE*/
+
+@media only screen and (max-width: 768px) {
+    .brand img {
+        width: 30%;
+        height: auto;
+        color: rgb(255, 186, 12);
+        text-decoration: none;
+        text-align: center;
+    }
+    .subContainer-navbar {
+        font-size: 12px;
+    }
+}

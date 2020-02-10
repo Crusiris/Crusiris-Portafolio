@@ -93,3 +93,26 @@
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
+
+
+/*Responsive*/
+
+
+/*PHONE*/
+
+@media only screen and (max-width: 768px) {
+    .container-tools {
+        background: rgb(236, 236, 238);
+        height: auto;
+    }
+    .containertech {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+    .title-tech {
+        width: 100%;
+        margin-top: 1em;
+    }
+}
