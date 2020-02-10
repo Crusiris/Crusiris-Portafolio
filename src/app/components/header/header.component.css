@@ -123,23 +123,29 @@
 
 /*PHONE*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .header {
-        width: 417px;
+        width: auto;
         height: 350px;
+    }
+    .greet,
+    .profession {
+        font-size: 8px;
     }
     .container-presentation {
         width: 90%;
         margin-top: 1em;
         margin-left: 4em;
-        font-size: 10px;
     }
     .cotainer-icon-contact {
         margin-top: 3em;
-        width: 87%;
+        margin-left: 0;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
     }
     .icon-contact {
-        width: auto;
+        width: 30%;
         height: auto;
         display: flex;
         flex-direction: row;
@@ -148,7 +154,9 @@
         width: 2em;
         height: 2em;
     }
-    .btncv {
-        font-size: 1.5em;
+    .cv .btncv {
+        margin-top: 1em;
+        font-size: 1em;
+        padding: 0.2em 1.7em;
     }
 }
