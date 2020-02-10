@@ -88,3 +88,30 @@
     grid-column: 4/5;
     grid-row: 4/5;
 }
+
+
+/*Responsive*/
+
+
+/*PHONE*/
+
+@media only screen and (max-width: 768px) {
+    .container-project {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        background: rgba(236, 181, 41, 0.8);
+    }
+    .subcontainer-project {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .subcontainer-project img {
+        margin-bottom: 0.5em;
+    }
+    .title {
+        margin-top: 1em;
+    }
+}
