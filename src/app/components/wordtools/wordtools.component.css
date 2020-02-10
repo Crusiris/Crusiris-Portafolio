@@ -115,4 +115,10 @@
         width: 100%;
         margin-top: 1em;
     }
+    .container-tech-one,
+    .container-tech-two,
+    .container-tech-three,
+    .container-tech-four {
+        width: 100%;
+    }
 }
