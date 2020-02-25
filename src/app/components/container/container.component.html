@@ -1,0 +1,21 @@
+<div class="container-brand-nav">
+    <div class="brand">
+        <img src="../../../../assets/img/C.png" alt="">
+    </div>
+    <nav class="container-nav" id="navbar">
+        <ul class="subContainer-navbar">
+            <li (click)="handleScroll('home')">Home</li>
+            <li (click)="handleScroll('aboutme')">About me</li>
+            <li (click)="handleScroll('tools')">Tools</li>
+            <li (click)="handleScroll('projects')">Projects</li>
+            <li (click)="handleScroll('footer')">Contact</li>
+
+        </ul>
+    </nav>
+</div>
+
+<app-home id="home"></app-home>
+<app-aboutme id="aboutme"></app-aboutme>
+<app-wordtools id="tools"></app-wordtools>
+<app-projects id="projects"></app-projects>
+<app-footer id="footer"></app-footer>

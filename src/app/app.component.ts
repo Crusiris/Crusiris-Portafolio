@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ScrollToService } from 'ng2-scroll-to-el';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'portafolio';
+  constructor() { }
+
+ 
 }
