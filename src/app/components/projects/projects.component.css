@@ -5,95 +5,110 @@
 /* *********** **********Contenedor general *********** ***********/
 
 .container-project {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 4em 1fr;
-    justify-items: center;
-    align-items: center;
+    max-width: 1500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-family: 'Merienda', cursive;
+    text-align: center;
+}
+
+
+/* *** *** Sub contenedor de la tarjeta *** *** */
+
+.cards {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 1em;
 }
 
-
-/** *** ***** Titulo ***** *** **/
-
-.title {
-    font-family: 'Merienda', cursive;
-    margin-bottom: 1em;
-    justify-self: center;
-    align-self: center;
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
-/** *** ***** Sub contenedor ***** *** **/
+/* *** *** Contenedor de la tarjeta *** *** */
 
-.subcontainer-project {
+.cardsItem {
+    width: 400px;
+    height: 520px;
+    margin-bottom: 1.5em;
+    -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+/* *** *** Contenedor de la imagen *** *** */
+
+.cardImage img {
+    width: 100%;
+}
+
+.cardTitle {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.cardContent {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.containerbtn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+/********* **************** *********Botones******** ************* **************/
+
+.btn {
+    background-color: white;
+    border: 1px solid rgb(105, 105, 105);
+    padding: 14px 40px;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
     width: 75%;
-    height: 90%;
-    font-size: 50px;
-    grid-column: 1/2;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-gap: 5px;
-    justify-items: stretch;
-    align-items: stretch;
+    margin-bottom: 0.5em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+    text-align: center;
+}
+
+.btnCode a {
+    text-decoration: none;
+    color: rgb(105, 105, 105);
+}
+
+.btn:hover {
+    color: #ffffff;
+    background-color: rgb(236, 181, 41);
 }
 
 
-/** *** ***** Primer proyecto ***** *** **/
-
-.project-one {
-    grid-column: 1/2;
-    grid-row: 1/3;
-}
+/* *** *** Contenedor del texto *** *** */
 
 
-/** *** ***** Segundo proyecto ***** *** **/
-
-.project-two {
-    grid-column: 2/4;
-    grid-row: 1/3;
-}
-
-
-/** *** ***** Tercer proyecto ***** *** **/
-
-.project-three {
-    grid-column: 4/5;
-    grid-row: 1/4;
-}
-
-
-/** *** ***** Cuarto proyecto ***** *** **/
-
-.project-four {
-    grid-column: 1/3;
-    grid-row: 3/5;
-}
-
-
-/** *** ***** QUinto proyecto ***** *** **/
-
-.project-five {
-    grid-column: 3/4;
-    grid-row: 3/5;
-}
-
-
-/** *** ***** Sexto proyecto ***** *** **/
-
-.project-six {
-    grid-column: 4/5;
-    grid-row: 4/5;
-}
-
-
-/*Responsive*/
-
-
-/*PHONE*/
+/**** ******* *RESPONSIVE ***** ******/
 
 @media only screen and (max-width: 600px) {
     .container-project {
@@ -124,3 +139,6 @@
         width: 100%;
     }
 }
+
+
+/********************************************/

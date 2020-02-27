@@ -10,6 +10,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Merienda&display=swap');
 
+/*Fuente lato*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300&display=swap');
+
 /******** ******* ******* HEADER ********* ********** *******/
 
 .header {
@@ -47,11 +51,12 @@
 /*Contenedor del la presentacion*/
 
 .container-presentation {
-    width: 50%;
-    height: 50%;
     display: flex;
+    width: 50%;
+    height: 70%;
     flex-direction: column;
-    margin-top: 6em;
+    align-items: center;
+    margin-top: 10em;
     margin-left: 10em;
 }
 
@@ -59,49 +64,47 @@
 /*Primer Contenedor*/
 
 .greet {
-    width: 62%;
+    width: 50%;
+    height: 40%;
     color: rgb(255, 255, 255);
     background: rgba(255, 255, 255, 0.2);
     padding: 0.5em;
-    font-family: 'Merienda', cursive;
+    font-family: 'Lato';
     font-size: 0.8;
+    text-align: center;
 }
 
-
-/*Segundo Contenedor*/
-
-.profession {
-    width: 62%;
-    color: rgb(255, 255, 255);
-    background: rgba(0, 0, 0, 0.3);
-    margin-top: 1em;
-    padding: 0.3em;
-    font-family: 'Love Ya Like A Sister', cursive;
-    text-align: center;
-    font-size: 1.2em;
+.conten {
+    margin-bottom: 3em;
 }
 
 
 /* Tercer contenedor  */
 
-.cv .btncv {
-    margin-top: 2.5em;
-    padding: 12px 80px;
+.btncv {
     background-color: rgb(236, 181, 41);
+    padding: 10px 100px;
     color: rgb(255, 255, 255);
     border: none;
-    font-family: 'Merienda One', cursive;
-    font-size: 1.1em;
+    font-family: 'Lato';
+    font-weight: 700;
+    margin-right: 1em;
+}
+
+.btncv:hover {
+    border: solid 1px rgb(236, 181, 41);
+    color: rgb(236, 181, 41);
+    background-color: rgb(255, 255, 255);
 }
 
 .cotainer-icon-contact {
-    width: 80%;
-    height: 15%;
-    margin-left: 3em;
+    width: 26%;
+    height: 12%;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
 }
 
 .icon-contact {
@@ -112,9 +115,24 @@
     justify-content: space-between;
 }
 
-.cotainer-icon-contact img {
-    width: 3em;
-    height: 3em;
+.cotainer-icon-contact a {
+    margin-right: 0.5em;
+}
+
+.gmail path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+.linkendi path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+.github path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+a {
+    text-decoration: none;
 }
 
 
