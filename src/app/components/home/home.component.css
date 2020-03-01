@@ -142,39 +142,16 @@ a {
 /*PHONE*/
 
 @media only screen and (max-width: 600px) {
-    .header {
-        width: auto;
-        height: 350px;
-    }
-    .greet,
-    .profession {
-        font-size: 8px;
-    }
     .container-presentation {
+        margin-left: 0;
+        margin-top: 8em;
+        width: 100%;
+        height: 60%;
+    }
+    .greet {
         width: 90%;
-        margin-top: 1em;
-        margin-left: 4em;
     }
     .cotainer-icon-contact {
-        margin-top: 3em;
-        margin-left: 0;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    .icon-contact {
-        width: 30%;
-        height: auto;
-        display: flex;
-        flex-direction: row;
-    }
-    .cotainer-icon-contact img {
-        width: 2em;
-        height: 2em;
-    }
-    .cv .btncv {
         margin-top: 1em;
-        font-size: 1em;
-        padding: 0.2em 1.7em;
     }
 }

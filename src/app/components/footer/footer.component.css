@@ -22,6 +22,22 @@ a:hover {
     text-decoration: underline;
 }
 
+.gmail path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+.github path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+.laboratoria path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+.linkedin path:hover {
+    fill: rgb(236, 181, 41);
+}
+
 
 /* Sticks footer to bottom */
 

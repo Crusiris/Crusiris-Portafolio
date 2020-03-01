@@ -1,6 +1,12 @@
-<div class="container-brand-nav">
-    <div class="brand">
-        <img src="../../../../assets/img/C.png" alt="">
+<!-- <header class="header">
+    <div class="brandAndMenu">
+        <div class="brand">
+            <img src="../../../../assets/img/C.png" alt="">
+        </div>
+        <div class="containerlabel">
+            <input type="checkbox" id="btnmenu">
+            <label class="label" for="btn-menu"><i class="fas fa-bars fa-2x" ></i></label>
+        </div>
     </div>
     <nav class="container-nav" id="navbar">
         <ul class="subContainer-navbar">
@@ -11,7 +17,65 @@
             <li (click)="handleScroll('footer')">Contacto</li>
         </ul>
     </nav>
-</div>
+</header> -->
+
+
+<header class="header">
+    <div class="navbar">
+        <div class="navbar__wrapper">
+            <nav class="navbar__menu">
+                <a class="navbar__brand">
+                    <img src="../../../../assets/img/C.png" alt="" />
+                </a>
+                <div (click)="mostrarmenu()" id="nav-icon3">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <ul class="navbar__nav">
+                    <li (click)="handleScroll('home')" class="navbar__link after-transform">
+                        <a class="active">Inicio</a>
+                    </li>
+                    <li (click)="handleScroll('aboutme')" class="navbar__link after-transform">
+                        <a>Sobre mi</a>
+                    </li>
+                    <li (click)="handleScroll('tools')" class="navbar__link after-transform">
+                        <a>Tecnologias</a>
+                    </li>
+                    <li (click)="handleScroll('projects')" class="navbar__link after-transform">
+                        <a>Proyectos</a>
+                    </li>
+                    <li class="navbar__link after-transform" (click)="handleScroll('footer')">
+                        <a>Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="navbar-responsive">
+        <ul class="navbar-responsive__nav">
+            <li (click)="handleScroll('home')" class="navbar-responsive__link after-transform">
+                <a class="active">Inicio</a>
+            </li>
+            <li (click)="handleScroll('aboutme')" class="navbar-responsive__link after-transform">
+                <a>Sobre mi</a>
+            </li>
+            <li (click)="handleScroll('tools')" class="navbar-responsive__link after-transform">
+                <a>Tecnologias</a>
+            </li>
+            <li (click)="handleScroll('projects')" class="navbar-responsive__link after-transform">
+                <a>Proyectos</a>
+            </li>
+            <li (click)="handleScroll('footer')" class="navbar-responsive__link after-transform">
+                <a>Contacto</a
+            ></li>
+        </ul>
+    </div>
+
+</header>
+
 
 <app-home id="home"></app-home>
 <app-aboutme id="aboutme"></app-aboutme>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { element } from 'protractor';
+
 
 @Component({
   selector: 'app-container',
@@ -7,7 +7,7 @@ import { element } from 'protractor';
   styleUrls: ['./container.component.css']
 })
 export class ContainerComponent implements OnInit {
-
+mostrar=true
   constructor() { }
 
   ngOnInit() {
@@ -17,4 +17,9 @@ export class ContainerComponent implements OnInit {
     console.log(currentElement)
     currentElement.scrollIntoView({ behavior: "smooth" })
   }
+
+  mostrarmenu(){
+    console.log('hola mundo')
+  }
+  
 }
