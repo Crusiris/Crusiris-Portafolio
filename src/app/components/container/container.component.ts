@@ -18,11 +18,11 @@ mostrar=true
     console.log(currentElement)
     currentElement.scrollIntoView({ behavior: "smooth" })
 
-    this.mostrarmenu()
+    this.showmenu()
   }
 
-  mostrarmenu() {
-    var divBarIcon3 = document.getElementById("nav-icon3");
+  showmenu() {
+    let divBarIcon3 = document.getElementById("nav-icon3");
     if (!this.mostrar) {
       divBarIcon3.classList.toggle("open");
       (document.getElementById(
