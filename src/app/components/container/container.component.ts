@@ -18,7 +18,7 @@ mostrar=true
     console.log(currentElement)
     currentElement.scrollIntoView({ behavior: "smooth" })
 
-    this.showmenu()
+    // this.showmenu()
   }
 
   showmenu() {

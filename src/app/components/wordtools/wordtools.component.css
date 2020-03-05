@@ -87,12 +87,35 @@
     height: 5.5em;
     width: 5.5em;
     border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
+
+.size {
+    width: 70%;
+    height: auto;
+}
+
+.size path:hover {
+    fill: rgb(236, 181, 41);
+}
+
+.container-circle:hover {
+    background: rgba(124, 121, 121, 0.3);
+    /* border: 1px solid rgb(0, 0, 0); */
+}
+
+
+/* .container-circle path:hover {
+    fill: rgb(236, 181, 41);
+} */
 
 
 /*Responsive*/

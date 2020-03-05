@@ -40,8 +40,8 @@
 /* *** *** Contenedor de la tarjeta *** *** */
 
 .cardsItem {
-    width: 400px;
-    height: 520px;
+    width: 30%;
+    height: auto;
     margin-bottom: 1.5em;
     -webkit-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.75);
@@ -58,6 +58,10 @@
 .cardTitle {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
+}
+
+.cartText {
+    text-align: justify;
 }
 
 .cardContent {
@@ -137,6 +141,9 @@ a {
     .container-tech-three,
     .container-tech-four {
         width: 100%;
+    }
+    .cardsItem {
+        width: 89%;
     }
 }
 
